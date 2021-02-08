@@ -6,10 +6,19 @@ public class OurGroup {
     public OurGroup()
     {
         groupMembers = new Vector<String>();
+
         groupMembers.add("Pitchakorn"); //PUT YOUR NAME HERE
+
+        groupMembers.add("Korawan"); //PUT YOUR NAME HERE
+
+        groupMembers.add("Pongwisanu"); //PUT YOUR NAME HERE
+ 	
     }
     public Vector<String> getGroupMembers () {
         return groupMembers;
     }
+
+
+
 
 }
